@@ -20,10 +20,9 @@ for i in range(0,7):
     move()
   turn(direction)
   
-  for i in range(0,3):
-    move()
-  turn(direction)
-  
+for i in range(0,3):
+  move()
+turn(direction)
   
   
   #direction = -direction
