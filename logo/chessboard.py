@@ -32,7 +32,6 @@ def horizontal_lines(squaresize):
     turn(90)
     
 def fillvertically():
-  for a in range(0,8):
     for b in range(0,4):
       for i in range(0,10):
         turn(90)
