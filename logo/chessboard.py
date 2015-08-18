@@ -7,4 +7,4 @@ def draw(gridlength):
     move(gridlength)
   
 
-draw(200)
+draw(100)
