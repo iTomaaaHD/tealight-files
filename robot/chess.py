@@ -5,5 +5,8 @@ from tealight.robot import (move,
                             smell, 
                             left_side, 
                             right_side)
+while touch() =="fruit":
+  move()
+turn(-1)
 for i in range(0,4):
   move()
