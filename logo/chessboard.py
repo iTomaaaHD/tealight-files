@@ -5,17 +5,21 @@ def drawgrid(gridlength):
     move(gridlength)
     turn(90)
   
-def drawsquares(squareslength):
+def verticalsquares(squaresize):
   for i in range(0,5):
     turn(90)
-    move(squareslength)
+    move(squaresize)
     turn(-90)
     move(100)
     turn(90)
-    move(squareslength)
+    move(squaresize)
     turn(90)
     move(100)
     turn(180)
+    
+def horizontalsquares(squaresize):
+  move(squaresize)
 
 drawgrid(100)
-drawsquares(10)
+verticalsquares(10)
+
