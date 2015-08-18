@@ -15,5 +15,5 @@ for i in range(0,4):
 for i in range(0,4):
   move()
 turn(-1)
-for in in range(0,30):
+for i in range(0,30):
   move()
