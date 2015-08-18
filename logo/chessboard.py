@@ -41,6 +41,7 @@ def fillvertically():
     move(1)
     turn(90)
     move(squaresize)
+    turn(180)
   
   
 
