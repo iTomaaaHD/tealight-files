@@ -40,5 +40,7 @@ move(gridsize)
 turn(90)
 
 horizontal_lines(squaresize)
-move(squaresize)
+turn(180)
+move(gridsize)
+turn(180)
 
