@@ -15,3 +15,6 @@ turn(1)
 for i in range(0,8):
   move()
 turn(1)
+for i in range(0,7):
+  move()
+turn(1)
