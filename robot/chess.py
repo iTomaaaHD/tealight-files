@@ -32,6 +32,7 @@ for i in range(0,7):
   for i in range(0,4):
     move()
   turn(direction)
+  direction = -direction
   
   
   #direction = -direction
