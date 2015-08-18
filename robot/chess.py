@@ -10,5 +10,6 @@ turn(1)
 while touch() =="fruit":
   move()
 turn(-1)
-for i in range(0,4):
+while touch() =="fruit":
   move()
+turn(-1)
