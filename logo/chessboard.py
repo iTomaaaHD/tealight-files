@@ -1,2 +1,3 @@
 from tealight.logo import move, turn
-def draw()
+def draw():
+  move(5)
