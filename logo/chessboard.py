@@ -7,8 +7,9 @@ def drawgrid(gridlength):
     move(gridlength)
   
 def drawsquares(squareslength):
-  move(10)
+  move(squareslength)
   turn(-90)
-  move(100)
+  move(gridlength)
 
 drawgrid(100)
+drawsquares(10)
