@@ -19,7 +19,8 @@ for i in range(0,7):
   for i in range(0,30):
     move()
   turn(direction)
-for i in range(0,2):  
+  
+for i in range(0,2): 
   for i in range(0,3):
     move()
   turn(direction)
