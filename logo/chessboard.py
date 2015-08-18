@@ -1,8 +1,11 @@
 from tealight.logo import move, turn
 
-def drawgrid(gridlength):
+gridsize = 100
+squaresize = 10
+
+def drawgrid(gridsize):
   for i in range(0,4):
-    move(gridlength)
+    move(gridsize)
     turn(90)
   
 def verticalsquares(squaresize):
@@ -19,7 +22,15 @@ def verticalsquares(squaresize):
     
 def horizontalsquares(squaresize):
   move(squaresize)
+  turn(90)
+  move(gridsize)
+  turn(-90)
+  move(squaresize)
+  turn(-90)
+  move(gridsize)
+  
 
-drawgrid(100)
-verticalsquares(10)
+drawgrid(gridsize)
+verticalsquares(squaresize)
+horizontalsquares(squaresize)
 
