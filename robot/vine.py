@@ -8,3 +8,6 @@ from tealight.robot import (move,
 
 for i in range(0,18):
   move()
+turn()
+for i in range(0,13):
+  move()
