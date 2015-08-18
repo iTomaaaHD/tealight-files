@@ -30,6 +30,17 @@ def horizontal_lines(squaresize):
     turn(-90)
     move(gridsize)
     turn(90)
+    
+def fillingvertically():
+  turn(90)
+  move(1)
+  turn(-90)
+  move(squaresize)
+  turn(90)
+  move(1)
+  turn(90)
+  move(squaresize)
+  
   
 
 drawgrid(gridsize)
