@@ -13,11 +13,11 @@ def verticalsquares(squaresize):
     turn(90)
     move(squaresize)
     turn(-90)
-    move(100)
+    move(gridsize)
     turn(90)
     move(squaresize)
     turn(90)
-    move(100)
+    move(gridsize)
     turn(180)
     
 def horizontalsquares(squaresize):
@@ -28,9 +28,13 @@ def horizontalsquares(squaresize):
   move(squaresize)
   turn(-90)
   move(gridsize)
+  turn(90)
   
 
 drawgrid(gridsize)
 verticalsquares(squaresize)
+turn(180)
+move(gridsize)
+turn(90)
 horizontalsquares(squaresize)
 
