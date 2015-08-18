@@ -23,3 +23,4 @@ for i in range(0,3):
 turn(2)
 for i in range(0,7):
   move()
+turn(1)
