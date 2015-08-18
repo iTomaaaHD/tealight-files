@@ -6,6 +6,7 @@ def drawgrid(gridlength):
     turn(90)
   
 def drawsquares(squareslength):
+  for i in range(0,10)
   turn(90)
   move(squareslength)
   turn(-90)
