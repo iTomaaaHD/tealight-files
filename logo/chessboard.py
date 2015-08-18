@@ -33,7 +33,7 @@ def horizontalsquares(squaresize):
 
 drawgrid(gridsize)
 verticalsquares(squaresize)
-turn(180)
+turn(-90)
 move(gridsize)
 turn(90)
 horizontalsquares(squaresize)
