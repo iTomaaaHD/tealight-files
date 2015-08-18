@@ -1,7 +1,7 @@
 from tealight.logo import move, turn
 
-def draw(length):
-  move(length)
+def draw(biglength,smalllength):
+  move(biglength)
   turn(90)
 
-draw(50)
+draw(200,50)
