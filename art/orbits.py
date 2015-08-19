@@ -38,6 +38,10 @@ def handle_frame():
   gravity = 0.001
   ay = ay + gravity
   
+  friction = 0.001
+  if ax < 0 :
+    vx = vx + ax + friction
+  
   color("white")
   
   spot(x,y,8)
