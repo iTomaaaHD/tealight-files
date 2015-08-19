@@ -35,7 +35,7 @@ def handle_keyup(key):
     
 def handle_frame():
   global x,y,vx,vy,ax,ay
-  gravity = 0.01
+  gravity = 0.001
   ay = ay + gravity
   
   color("white")
