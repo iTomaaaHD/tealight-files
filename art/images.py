@@ -9,7 +9,7 @@ height = 8
 for i in range(0,width):
   for j in range(0,height):
     if i % 4 == 0:
-      image(x + j * 60 , y - j  , "misc/YellowFlower.png")
+      image(x + j * 60 , y - j * 5  , "misc/YellowFlower.png")
     else:
-      image(x + j * 60 , y - j , "misc/Clover.png")
+      image(x + j * 60 , y - j * 5, "misc/Clover.png")
      
