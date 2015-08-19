@@ -8,7 +8,7 @@ vx = 0
 vy = 0
 ax = 0
 ay = 0
-gravity = 5
+gravity = 0.1
 power = 0.3
 ay = ay + gravity
 
