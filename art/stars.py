@@ -1,6 +1,6 @@
 from tealight.art import (color, line, spot, circle, box, image, text, background)
 
-from math import sin, cos, pi,
+from math import sin, cos, pi
 
 def star(x, y, c, size, spines):
   
