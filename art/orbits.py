@@ -9,7 +9,7 @@ vy = 0
 ax = 0
 ay = 0
 
-power = 0.1
+power = 0.2
 
 
 def handle_keydown(key):
