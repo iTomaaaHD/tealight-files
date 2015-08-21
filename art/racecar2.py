@@ -48,6 +48,7 @@ drawcar(newcar,"blue")
   
 anglecounter = 1
 def handle_keydown(key):
+  totalangle = 0
   global newcar,anglecounter
   if key == "left":
     #color("white")
