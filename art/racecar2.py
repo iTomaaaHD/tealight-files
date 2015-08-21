@@ -50,7 +50,7 @@ drawcar(newcar,"blue")
 def handle_keydown(key):
   #anglecounter = 1
   #totalangle = 0
-  global newcar
+  global newcar, angle
   if key == "left":
     #color("white")
     background("http://www.electricdreams.com/slotcar-news/wp-content/uploads/2010/10/10x18trioval-1b.jpg")
