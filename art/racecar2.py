@@ -71,7 +71,7 @@ def handle_keydown(key):
       
     newcar = rotation(newcar,angle)
     drawcar(newcar,"blue")
-    totalangle = totalangle + anglecounter * -angle
+    totalangle = totalangle + anglecounter * angle
     anglecounter += 1
 
 
