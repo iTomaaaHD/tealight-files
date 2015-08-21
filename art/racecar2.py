@@ -67,7 +67,7 @@ def handle_keydown(key):
     newcar = rotation(newcar,10)
     drawcar(newcar,"blue")
   elif key == "up":
-    color("white")
-    box(0,0,screen_width,screen_height)
+    background("http://www.electricdreams.com/slotcar-news/wp-content/uploads/2010/10/10x18trioval-1b.jpg")
+
     movecar(newcar)
     
