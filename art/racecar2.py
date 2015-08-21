@@ -69,5 +69,5 @@ def handle_keydown(key):
   elif key == "up":
     background("http://www.electricdreams.com/slotcar-news/wp-content/uploads/2010/10/10x18trioval-1b.jpg")
 
-    movecar(newcar)
+    movecar(car)
     
