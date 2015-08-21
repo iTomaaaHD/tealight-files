@@ -70,7 +70,7 @@ def handle_keydown(key):
   elif key == "up":
     background("http://www.electricdreams.com/slotcar-news/wp-content/uploads/2010/10/10x18trioval-1b.jpg")
     newshape = []
-    for each in points:
+    for each in newcar:
        newcar.append((each[0] + power*cos(angle), each[1] + power*sin(angle)))
     newcar = newshape
     drawcar(newcar,"blue")
