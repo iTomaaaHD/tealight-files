@@ -37,12 +37,12 @@ def drawcar(points,colour):
 newcar = rotation(car,0)
 drawcar(newcar,"blue")
 
-def movecar(points,colour):
+def movecar(points):
   global theta
-  color(colour)
   newcar = []
   for each in points:
      newcar.append((each[0]*power*cos(theta), each[1]*power*sin(theta)))
+  drawcar(newcar,"blue")
   
 
 def handle_keydown(key):
@@ -65,5 +65,5 @@ def handle_keydown(key):
   elif key == "up":
     color("white")
     box(0,0,screen_width,screen_height)
-    movecar(newcar,"blue")
+    movecar(newcar)
     
