@@ -11,6 +11,8 @@ car = [(x,y),(x+50,y),(x-40,y-25),(x-40,y+25),(x-40,y-25)
 power = 5
 angle = 5
 
+newcar = rotation(car,0)
+drawcar(newcar,"blue")
 def rotation(shape, theta):
    theta = radians(theta)
    newshape = []
@@ -35,8 +37,7 @@ def drawcar(points,colour):
       temppoints =[]
       counter = 0
 #moved = False 
-newcar = rotation(car,0)
-drawcar(newcar,"blue")
+
 
 #def movecar(points):
  # global angle,newcar
