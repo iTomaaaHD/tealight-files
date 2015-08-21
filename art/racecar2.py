@@ -49,7 +49,8 @@ def handle_keydown(key):
   global newcar
   if key == "left":
     color("white")
-    box(0,0,screen_width,screen_height)
+    background("http://www.electricdreams.com/slotcar-news/wp-content/uploads/2010/10/10x18trioval-1b.jpg")
+    #box(0,0,screen_width,screen_height)
       
     #drawcar(newcar,"white")
       
@@ -57,7 +58,9 @@ def handle_keydown(key):
     drawcar(newcar,"blue")
   elif key == "right":
     color("white")
-    box(0,0,screen_width,screen_height)
+    background("http://www.electricdreams.com/slotcar-news/wp-content/uploads/2010/10/10x18trioval-1b.jpg")
+
+    #box(0,0,screen_width,screen_height)
     #drawcar(newcar,"white")
       
     newcar = rotation(newcar,10)
