@@ -72,7 +72,6 @@ def handle_keydown(key):
     newshape = []
     for each in newcar:
        newcar.append((each[0] + power*cos(angle), each[1] + power*sin(angle)))
-    newcar = newshape
     drawcar(newcar,"blue")
 
     
