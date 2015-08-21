@@ -46,8 +46,9 @@ drawcar(newcar,"blue")
   #newcar = newshape
   #drawcar(newcar,"blue")
   
-anglecounter = 1
+
 def handle_keydown(key):
+  anglecounter = 1
   totalangle = 0
   global newcar,anglecounter
   if key == "left":
