@@ -8,9 +8,8 @@ car = [(x,y),(x+50,y),(x-40,y-25),(x-40,y+25),(x-40,y-25)
        ,(x,y),(x-40,y+25),(x,y),(x-40,y+25),(x+50,y),
        (x-40,y-25),(x+50,y)]
 power = 5
-
+theta = radians(theta)
 def rotation(shape, theta):
-   theta = radians(theta)
    newshape = []
    for vertex in shape:
       print(vertex[0],vertex[1])
@@ -40,7 +39,7 @@ def movecar(points):
   global theta
   newcar = []
   for each in points:
-     newcar.append((each[0]*cos(theta), each[1]*sin(theta)))
+     newcar.append((each[0]*power*cos(theta), each[1]*power*sin(theta)))
   car = newcar
 
 def handle_keydown(key):
