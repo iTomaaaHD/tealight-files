@@ -39,10 +39,10 @@ newcar = rotation(car,0)
 drawcar(newcar,"blue")
 
 def movecar(points):
-  global theta
+  global angle,newcar
   newshape = []
   for each in points:
-     newcar.append((each[0]*power*cos(theta), each[1]*power*sin(theta)))
+     newcar.append((each[0]*power*cos(angle), each[1]*power*sin(angle)))
   newcar = newshape
   drawcar(newcar,"blue")
   
