@@ -61,4 +61,7 @@ def handle_keydown(key):
     newcar = rotation(newcar,10)
     drawcar(newcar,"blue")
   elif key == "up":
+    color("white")
+    box(0,0,screen_width,screen_height)
+    movecar(car)
     
