@@ -65,7 +65,7 @@ def handle_keydown(key):
     #box(0,0,screen_width,screen_height)
     #drawcar(newcar,"white")
       
-    newcar = rotation(newcar,angle*anglecounter)
+    newcar = rotation(car,angle*anglecounter)
     drawcar(newcar,"blue")
     anglecounter += 1
   elif key == "up":
