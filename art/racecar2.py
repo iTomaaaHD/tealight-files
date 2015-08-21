@@ -48,8 +48,8 @@ drawcar(newcar,"blue")
   
 
 def handle_keydown(key):
-  anglecounter = 1
-  totalangle = 0
+  #anglecounter = 1
+  #totalangle = 0
   global newcar
   if key == "left":
     #color("white")
@@ -60,8 +60,9 @@ def handle_keydown(key):
       
     newcar = rotation(newcar,-angle)
     drawcar(newcar,"blue")
-    totalangle = anglecounter * -angle
-    anglecounter -= 1
+    #totalangle = anglecounter * -angle
+    #anglecounter -= 1
+    angle -= 3
   elif key == "right":
     #color("white")
     background("http://www.electricdreams.com/slotcar-news/wp-content/uploads/2010/10/10x18trioval-1b.jpg")
@@ -71,8 +72,9 @@ def handle_keydown(key):
       
     newcar = rotation(newcar,angle)
     drawcar(newcar,"blue")
-    totalangle = anglecounter * angle
-    anglecounter += 1
+    #totalangle = anglecounter * angle
+    #anglecounter += 1
+    angle += 3
   elif key == "up":
     background("http://www.electricdreams.com/slotcar-news/wp-content/uploads/2010/10/10x18trioval-1b.jpg")
     newshape = []
