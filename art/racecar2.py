@@ -40,9 +40,10 @@ drawcar(newcar,"blue")
 
 def movecar(points):
   global theta
-  newcar = []
+  newshape = []
   for each in points:
      newcar.append((each[0]*power*cos(theta), each[1]*power*sin(theta)))
+  newcar = newshape
   drawcar(newcar,"blue")
   
 anglecounter = 1
@@ -55,9 +56,8 @@ def handle_keydown(key):
       
     #drawcar(newcar,"white")
       
-    newcar = rotation(car,-angle*anglecounter)
+    newcar = rotation(newcar,-angle)
     drawcar(newcar,"blue")
-    anglecounter += 1
   elif key == "right":
     #color("white")
     background("http://www.electricdreams.com/slotcar-news/wp-content/uploads/2010/10/10x18trioval-1b.jpg")
@@ -65,9 +65,8 @@ def handle_keydown(key):
     #box(0,0,screen_width,screen_height)
     #drawcar(newcar,"white")
       
-    newcar = rotation(car,angle*anglecounter)
+    newcar = rotation(newcar,angle)
     drawcar(newcar,"blue")
-    anglecounter += 1
   elif key == "up":
     background("http://www.electricdreams.com/slotcar-news/wp-content/uploads/2010/10/10x18trioval-1b.jpg")
 
