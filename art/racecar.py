@@ -7,7 +7,7 @@ x = screen_width/2
 car = [(x,y),(x+50,y),(x-40,y-25),(x-40,y+25),(x-40,y-25)
        ,(x,y),(x-40,y+25),(x,y),(x-40,y+25),(x+50,y),
        (x-40,y-25),(x+50,y)]
-
+power = 5
 
 def rotation(shape, theta):
    theta = radians(theta)
@@ -36,6 +36,13 @@ def drawcar(points,colour):
 newcar = rotation(car,0)
 drawcar(newcar,"blue")
 
+def movecar(points):
+  global theta
+  newcar = []
+  for each in points:
+     newcar.append((each[0]*cos(theta), each[1]*sin(theta)))
+  car = newcar
+
 def handle_keydown(key):
   global newcar
   if key == "left":
@@ -53,3 +60,5 @@ def handle_keydown(key):
       
     newcar = rotation(newcar,10)
     drawcar(newcar,"blue")
+  elif key == "up":
+    
